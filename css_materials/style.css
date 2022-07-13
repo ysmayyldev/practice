@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .bg-image {
-    background-image: url(../img/1625792678_6-kartinkin-com-p-fotoapparat-oboi-krasivie-6.jpg);
+    background-image: url(../img/q3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,15 +12,24 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    zoom: 1.2;
 }
 .bg-image3 {
-    background-image: url(../img/sunset-5344024_960_720.jpg);
+    background-image: url(../img/Sonnenuntergang-fotografieren-Blick-auf-Kameradisplay-2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    zoom: 1.2;
 }
 .bg-image4 {
     background-image: url(../img/sunset-2794833_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    zoom: 1.2;
+}
+.bg-image5 {
+    background-image: url(../img/8206383b4d0328991dcdfe4f8e37b445.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,8 +37,15 @@ body {
 .w-100 {
     max-width: 100%;
 }
+.h-500 {
+    max-height: 500px;
+}
 a {
     text-decoration: none;
+    transition: .3s;
+}
+a:hover {
+    color: red;
 }
 .border-bottom {
     border-bottom: 2px solid black;
@@ -42,14 +58,17 @@ a {
 }
 .justify-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 .space-around {
     display: flex;
     justify-content: space-around;
 }
-.border {
+.border-white {
     border: 1px solid white;
+}
+.border-black {
+    border: 1px solid black;
 }
 .border-bottom {
     border-bottom: 2px solid black;
@@ -59,4 +78,13 @@ a {
 }
 .width-500 {
     max-width: 500px;
+}
+.w-50 {
+    max-width: 50px;
+}
+.text-bold {
+    font-weight: bold;
+}
+.align-right {
+    text-align: right;
 }

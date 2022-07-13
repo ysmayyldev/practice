@@ -98,3 +98,9 @@
     margin-right: auto;
     margin-left: auto;
 }
+.ml-a {
+    margin-left: auto;
+}
+.mr-a {
+    margin-right: auto;
+}
